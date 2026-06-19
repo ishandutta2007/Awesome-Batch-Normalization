@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4F46E5;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#7C3AED;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EC4899;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#grad)" rx="10" />
+  
+  <!-- Neural Net elements representing normalization -->
+  <g opacity="0.15">
+    <circle cx="100" cy="100" r="40" fill="#FFF" />
+    <circle cx="200" cy="60" r="30" fill="#FFF" />
+    <circle cx="200" cy="140" r="30" fill="#FFF" />
+    <circle cx="300" cy="100" r="40" fill="#FFF" />
+    <line x1="140" y1="100" x2="170" y2="75" stroke="#FFF" stroke-width="4" />
+    <line x1="140" y1="100" x2="170" y2="125" stroke="#FFF" stroke-width="4" />
+    <line x1="230" y1="70" x2="260" y2="90" stroke="#FFF" stroke-width="4" />
+    <line x1="230" y1="130" x2="260" y2="110" stroke="#FFF" stroke-width="4" />
+  </g>
+  
+  <text x="50%" y="45%" dominant-baseline="middle" text-anchor="middle" fill="#FFF" font-family="'Outfit', 'Inter', sans-serif" font-size="36" font-weight="800" filter="url(#shadow)">
+    AWESOME BATCH NORMALIZATION
+  </text>
+  <text x="50%" y="70%" dominant-baseline="middle" text-anchor="middle" fill="#E0E7FF" font-family="'Inter', sans-serif" font-size="16" font-weight="500" letter-spacing="1.5">
+    Variants, Placements, &amp; Applications in Deep Learning
+  </text>
+</svg>

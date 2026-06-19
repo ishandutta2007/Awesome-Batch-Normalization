@@ -1,11 +1,30 @@
-# Awesome-Batch-Normalization
-## Batch Normalization (BatchNorm): Variants, Types, & Applications
+# 🧠 Awesome Batch Normalization
+
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome Batch Normalization Banner" width="100%">
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Batch-Normalization/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Batch-Normalization?style=flat-square&logo=github" alt="GitHub stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Batch-Normalization/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Batch-Normalization?style=flat-square" alt="GitHub issues"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Batch-Normalization/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Batch-Normalization?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+<!--
+Metadata for SEO:
+Description: A curated repository of Batch Normalization variants, placements, and applications in neural networks and deep learning. Learn about LayerNorm, InstanceNorm, GroupNorm, WeightNorm, and distributed SyncBN.
+Keywords: Batch Normalization, BatchNorm, LayerNorm, InstanceNorm, GroupNorm, SyncBN, Weight Normalization, Pre-Activation, Post-Activation, Domain Adaptation, Regularization, Deep Learning Optimization
+-->
+
+## 🚀 Batch Normalization (BatchNorm): Variants, Types, & Applications
 
 Batch Normalization is a foundational regularization and optimization technique used to stabilize and accelerate deep neural network training. By normalizing layer inputs across a mini-batch to a zero mean and unit variance, it mitigates the internal covariate shift problem, smoothens the optimization landscape, and allows for much higher learning rates.
 
 ---
 
-## 1. Algorithmic & Normalization Variants
+## 🧩 1. Algorithmic & Normalization Variants
 
 These variants modify the dimension across which the normalization statistics (mean and variance) are calculated to overcome the physical limitations of standard BatchNorm.
 
@@ -18,7 +37,7 @@ These variants modify the dimension across which the normalization statistics (m
 
 ---
 
-## 2. Advanced Implementation & System Types
+## ⚙️ 2. Advanced Implementation & System Types
 
 These specialized variants adapt the mathematical formulation of BatchNorm to handle distributed training configurations or specialized network behaviors.
 
@@ -30,7 +49,7 @@ These specialized variants adapt the mathematical formulation of BatchNorm to ha
 
 ---
 
-## 3. Network Architecture Placements
+## 🏗️ 3. Network Architecture Placements
 
 Where BatchNorm is placed relative to activation functions alters convergence speeds and the stability of gradient flows.
 
@@ -41,7 +60,7 @@ Where BatchNorm is placed relative to activation functions alters convergence sp
 
 ---
 
-## 4. Cross-Domain Applications
+## 🌐 4. Cross-Domain Applications
 
 While primarily known for accelerating standard training loops, BatchNorm fulfills specific structural roles across various machine learning domains.
 
