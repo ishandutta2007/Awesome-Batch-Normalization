@@ -69,3 +69,16 @@ While primarily known for accelerating standard training loops, BatchNorm fulfil
 | [**Convolutional Neural Networks (CNNs) for Image Classification**](./docs/cnn-image-classification.md) | 2015 | [Ioffe & Szegedy](https://arxiv.org/abs/1502.03167) | Embedded systematically after convolutional operations (e.g., in ResNet architectures) to allow deep stacking without encountering vanishing or exploding gradients. |
 | [**Internal Network Regularization**](./docs/internal-network-regularization.md) | 2015 | [Ioffe & Szegedy](https://arxiv.org/abs/1502.03167) | Acts as a minor regularizer during training. Because mini-batch statistics introduce slight stochastic noise, it frequently reduces the model's reliance on strict Dropout layers. |
 | [**Domain Adaptation Pipelines**](./docs/domain-adaptation-pipelines.md) | 2016 | [Li et al.](https://arxiv.org/abs/1603.04415) | Used to align target data distributions. By freezing a model's weights but updating its running BatchNorm statistics on a new target dataset, the network can adjust to minor domain shifts without retraining from scratch. |
+
+---
+
+##  Star History
+<div align="center">
+<a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-Batch-Normalization&type=date&legend=bottom-right">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Batch-Normalization&type=date&theme=dark&legend=bottom-right" />
+<source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Batch-Normalization&type=date&legend=bottom-right" />
+<img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Batch-Normalization&type=date&legend=bottom-right" />
+</picture>
+</a>
+</div>
